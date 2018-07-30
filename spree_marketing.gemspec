@@ -16,10 +16,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.2.0.rc2'
-  s.add_dependency 'spree_events_tracker', '~> 3.2.0.rc2'
+  s.add_dependency 'spree_core', '~> 3.2.7'
   s.add_dependency 'gibbon',     '~> 2.2.3'
-  s.add_dependency 'whenever',   '~> 0.9.4'
 
   s.add_development_dependency 'acts_as_paranoid', '0.3.1'
   s.add_development_dependency 'capybara', '~> 2.4'
